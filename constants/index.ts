@@ -52,11 +52,11 @@ export const portfolioCards = [
     description: "This is the description for Portfolio Card 4.",
     image: "/DSC09731.JPG",
   },
-  {
-    title: "Reels",
-    description: "This is the description for Portfolio Card 4.",
-    image: "/DSC09731.JPG",
-  }
+  // {
+  //   title: "Reels",
+  //   description: "This is the description for Portfolio Card 4.",
+  //   image: "/DSC09731.JPG",
+  // }
 ];
 
 export const PreWeddingPhotos = [

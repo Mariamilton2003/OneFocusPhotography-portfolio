@@ -19,7 +19,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
       {/* Navigation Buttons */}
       <div className="bg-secondary-50 py-4 px-4 lg:mx-36">
         <div className="grid grid-flow-col place-items-center gap-2 whitespace-nowrap overflow-x-auto min-w-full [&::-webkit-scrollbar]:w-2 [&::-webkit-scrollbar]:h-1 [&::-webkit-scrollbar-track]:bg-gray-100 [&::-webkit-scrollbar-thumb]:bg-gray-300">
-            {["All", "Pre-Weddings", "Weddings", "Portraits", "Events", "Reels"].map((category) => (           
+            {["All", "Pre-Weddings", "Weddings", "Portraits", "Events"].map((category) => (           
                <button
                 key={category}
                 onClick={() => (window.location.href = `/portfolio/${category}`)}
