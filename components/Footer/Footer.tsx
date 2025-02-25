@@ -1,6 +1,7 @@
 'use client';
 import { followUs } from "@/constants";
 import { LocationOnRounded, PhoneInTalkRounded } from "@mui/icons-material";
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -84,7 +85,7 @@ const Footer = () => {
                   rel="noopener noreferrer"
                 >
                   {socialmedia.type === "svg" ? (
-                    <img src={socialmedia.icon} alt={socialmedia.name} className="w-6 h-6 sm:w-8 sm:h-8" />
+                    <Image src={socialmedia.icon} alt={socialmedia.name} className="w-6 h-6 sm:w-8 sm:h-8" />
                   ) : (
                     <div className="w-6 h-6 sm:w-8 sm:h-8">
                       {React.createElement(socialmedia.icon)}
