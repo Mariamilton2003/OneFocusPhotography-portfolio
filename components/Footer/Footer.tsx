@@ -26,13 +26,13 @@ const Footer = () => {
             </div>
             <div className="flex">
               <span className="text-secondary-300 leading-relaxed text-sm sm:text-base">
-                <a
+                <Link
                   href="tel:+919844553638"
                   className="text-sm text-blue-500 sm:text-base hover:text-white transition-colors duration-300"
                 >
                   <PhoneInTalkRounded className="mr-2 w-8 h-8" />
                   +91 98445 53638
-                </a>
+                </Link>
               </span>
             </div>
           </div>
@@ -43,28 +43,28 @@ const Footer = () => {
             <nav>
               <ul className="text-secondary-300 flex flex-col gap-2">
                 <li>
-                  <a
+                  <Link
                     href="/About"
                     className="text-sm sm:text-base hover:text-white transition-colors duration-300"
                   >
                     About Us
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     href="/portfolio/All"
                     className="text-sm sm:text-base hover:text-white transition-colors duration-300"
                   >
                     Portfolio
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     href="/#contact"
                     className="text-sm sm:text-base hover:text-white transition-colors duration-300"
                   >
                     Contact
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </nav>

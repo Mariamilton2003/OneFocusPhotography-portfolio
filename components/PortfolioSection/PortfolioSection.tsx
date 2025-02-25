@@ -16,7 +16,6 @@ export const PortfolioSection = () => {
           <PortfolioSectionCard
             key={card.title}
             title={card.title}
-            description={card.description}
             image={card.image}
           />
         ))}

@@ -48,7 +48,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             Ready to Create Something Beautiful?
           </span>
           <span className="block text-secondary-100 text-lg mb-8">
-            Let's work together to capture your special moments in the most extraordinary way.
+            Let&apos;s work together to capture your special moments in the most extraordinary way.
           </span>
           <Button variant={"primary"} size={"lg"} asChild>
             <Link href='/#contact' className="text-white font-medium">Book a Session</Link>

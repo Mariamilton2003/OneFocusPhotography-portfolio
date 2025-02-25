@@ -44,7 +44,7 @@ const page = () => {
             and technical expertise.
           </p>
           <p className="font-semibold text-primary-600">
-            Ready to create something extraordinary? Let's collaborate and turn your vision 
+            Ready to create something extraordinary? Let&apos;s collaborate and turn your vision 
             into stunning visual stories.
           </p>
         </div>

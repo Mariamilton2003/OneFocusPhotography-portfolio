@@ -4,11 +4,10 @@ import Link from "next/link"
 
 interface PortfolioSectionCardProps {
     title: string
-    description: string
     image: string
 }
 
-export const PortfolioSectionCard = ({ title, description, image }: PortfolioSectionCardProps) => {
+export const PortfolioSectionCard = ({ title, image }: PortfolioSectionCardProps) => {
     return (
       <div className="group relative flex h-[300px] w-full flex-col items-center justify-center gap-4 rounded-lg bg-secondary-300 md:h-[280px] md:w-[340px] lg:h-[20vw] lg:w-[18vw]">
           <div className="relative h-full w-full overflow-hidden rounded-lg">
