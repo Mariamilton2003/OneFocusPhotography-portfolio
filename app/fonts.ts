@@ -48,11 +48,6 @@ const libre_bodoni = localFont({
         path: '../public/fonts/source-sans-pro/SourceSansPro-BoldItalic.ttf',
         weight: '700',
         style: 'italic'
-      },
-      {
-        path: '../public/fonts/source-sans-pro/SourceSansPro-SemiBold.ttf',
-        weight: '600',
-        style: 'normal'
       }
     ],
     display: 'swap',
