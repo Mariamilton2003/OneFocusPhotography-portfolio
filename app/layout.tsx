@@ -1,59 +1,8 @@
 import type { Metadata } from "next";
-import localFont from 'next/font/local';
 import "./globals.css";
 import Header from "@/components/Header/Header";
 import Footer from "@/components/Footer/Footer";
-
-const libre_bodoni = localFont({
-  src: [
-    {
-      path: '../public/fonts/libre-bodoni/Libre-Bodoni-master/fonts/TTF/LibreBodoni-Regular.ttf',
-      weight: '400'
-    },
-    {
-      path: '../public/fonts/libre-bodoni/Libre-Bodoni-master/fonts/TTF/LibreBodoni-Italic.ttf',
-      weight: '400',
-      style: 'italic'
-    },
-    {
-      path: '../public/fonts/libre-bodoni/Libre-Bodoni-master/fonts/TTF/LibreBodoni-Bold.ttf',
-      weight: '700'
-    },
-    {
-      path: '../public/fonts/libre-bodoni/Libre-Bodoni-master/fonts/TTF/LibreBodoni-BoldItalic.ttf',
-      weight: '700',
-      style: 'italic'
-    }
-  ],
-  variable: '--font-libre-bodoni'
-});
-const sourceSansPro = localFont({
-  src: [
-    {
-      path: '../public/fonts/source-sans-pro/SourceSansPro-Regular.ttf',
-      weight: '400'
-    },
-    {
-      path: '../public/fonts/source-sans-pro/SourceSansPro-Italic.ttf',
-      weight: '400',
-      style: 'italic'
-    },
-    {
-      path: '../public/fonts/source-sans-pro/SourceSansPro-Bold.ttf',
-      weight: '700'
-    },
-    {
-      path: '../public/fonts/source-sans-pro/SourceSansPro-BoldItalic.ttf',
-      weight: '700',
-      style: 'italic'
-    },
-    {
-      path: '../public/fonts/source-sans-pro/SourceSansPro-SemiBold.ttf',
-      weight: '600'
-    }
-  ],
-  variable: '--font-source-sans-pro'
-});
+import { libre_bodoni, sourceSansPro } from "./fonts";
 
 export const metadata: Metadata = {
   title: "One Focus Photography | Capturing Moments, Creating Memories",
