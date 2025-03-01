@@ -60,40 +60,40 @@ export const portfolioCards = [
 ];
 
 export const PreWeddingPhotos = [
-  "/IMG_0450.JPG",
-  "/IMG_0463.JPG",
-  "/IMG_3358.JPG",
+  "/pre-wedding/PBC0394.JPG",
+  "/pre-wedding/PBC0443.JPG",
+  "/pre-wedding/PBC0449.JPG",
+  "/pre-wedding/PBC0748.JPG",
+  "/pre-wedding/PBC0767.JPG",
+  "/pre-wedding/PBC0779.JPG",
+  "/pre-wedding/PBC0790.JPG",
+  "/pre-wedding/PBC0801.JPG",
+  "/pre-wedding/PBC0814.JPG",
+  "/pre-wedding/PBC0821.JPG",
+  "/pre-wedding/PBC0832.JPG",
 ];
 
 export const WeddingsPhotos = [
-  "/IMG_0463.JPG",
-  "/IMG_0450.JPG",
+  "/weddings/PBC1675.JPG",
+  "/weddings/PBC1699.JPG",
+  "/weddings/PBC1727.JPG",
+  "/weddings/PBC1847.JPG",
+  "/weddings/PBC1860.JPG",
+  "/weddings/PBC1862.JPG",
+  "/weddings/PBC1999.JPG"
 ];
 
-export const PortraitsPhotos = ["/IMG_0463.JPG", "/IMG_0450.JPG"];
+export const PortraitsPhotos = ['/portrait/IMG_0440.JPG','/portrait/IMG_0442.JPG','/portrait/IMG_0443.JPG','/portrait/IMG_0445.JPG','/portrait/IMG_0463.JPG'];
 
 export const EventsPhotos = [
-  "/CORATE/DSC09395.JPG",
-  "/CORATE/DSC09403.JPG",
   "/CORATE/DSC09405.JPG",
-  "/CORATE/DSC09420.JPG",
-  "/CORATE/DSC09429.JPG",
-  "/CORATE/DSC09441.JPG",
   "/CORATE/DSC09452.JPG",
   "/CORATE/DSC09459.JPG",
-  "/CORATE/DSC09477.JPG",
-  "/CORATE/DSC09481.JPG",
   "/CORATE/DSC09496.JPG",
   "/CORATE/DSC09502.JPG",
-  "/CORATE/DSC09514.JPG",
   "/CORATE/DSC09530.JPG",
   "/CORATE/DSC09606.JPG",
-  "/CORATE/DSC09609.JPG",
   "/CORATE/DSC09666.JPG",
-  "/CORATE/DSC09694.JPG",
-  "/CORATE/DSC09703.JPG",
-  "/CORATE/DSC09724.JPG",
-  "/CORATE/DSC09731.JPG",
   "/CORATE/DSC09740.JPG",
   "/CORATE/DSC09744.JPG",
   "/CORATE/DSC09751.JPG",

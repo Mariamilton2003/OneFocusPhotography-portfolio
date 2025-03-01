@@ -74,7 +74,7 @@ const Footer = () => {
             <h4 className="text-white text-base sm:text-lg font-medium">
               Follow Us
             </h4>
-            <div className="flex gap-4 sm:gap-6">
+            <div className="flex gap-4">
               {followUs.map((socialmedia, index) => (
                 <Link
                   key={index}
@@ -85,7 +85,7 @@ const Footer = () => {
                   rel="noopener noreferrer"
                 >
                   {socialmedia.type === "svg" ? (
-                    <Image src={socialmedia.icon} alt={socialmedia.name} className="w-6 h-6 sm:w-8 sm:h-8" />
+                    <Image src={socialmedia.icon} alt={socialmedia.name} width={1000} height={1000} objectFit="fill" objectPosition="center" className="max-w-[200%] w-6 h-6 sm:w-8 sm:h-8 hover:bg-white" />
                   ) : (
                     <div className="w-6 h-6 sm:w-8 sm:h-8">
                       {React.createElement(socialmedia.icon)}
