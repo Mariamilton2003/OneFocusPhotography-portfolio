@@ -60,17 +60,12 @@ export const portfolioCards = [
 ];
 
 export const PreWeddingPhotos = [
-  "/pre-wedding/PBC0394.JPG",
-  "/pre-wedding/PBC0443.JPG",
-  "/pre-wedding/PBC0449.JPG",
   "/pre-wedding/PBC0748.JPG",
   "/pre-wedding/PBC0767.JPG",
   "/pre-wedding/PBC0779.JPG",
   "/pre-wedding/PBC0790.JPG",
   "/pre-wedding/PBC0801.JPG",
   "/pre-wedding/PBC0814.JPG",
-  "/pre-wedding/PBC0821.JPG",
-  "/pre-wedding/PBC0832.JPG",
 ];
 
 export const WeddingsPhotos = [
